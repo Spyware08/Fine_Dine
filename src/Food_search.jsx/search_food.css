@@ -1,0 +1,116 @@
+.search_food {
+    background-color: rgb(15, 14, 19);
+    color: white;
+    min-height: 90vh;
+
+}
+
+.search_food h2 {
+    text-align: center;
+}
+
+.search_main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_main input {
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 7px 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search_main button {
+    font-size: 1.5rem;
+    padding: 3px 15px;
+    border-radius: 1.2rem;
+    border: none;
+    margin: 0 10px;
+    transition: 0.3s;
+
+}
+
+.search_main button:hover {
+    background-color: green;
+    color: white;
+}
+
+.search_content {
+    /* display: grid;
+    grid-template-columns: 500px 500px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.search_content div {
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.search_content div img {
+    border-radius: 20px;
+}
+
+.flex_contaniner {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-column: auto;
+
+}
+
+.search_span {
+    margin: auto;
+    margin-top: -270px;
+    visibility: hidden;
+
+}
+
+.search_span p {
+    border-radius: 10px;
+    height: 270px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.2s ease-in-out;
+
+}
+
+.visible {
+    visibility: visible;   
+}
+
+.hidden {
+    visibility: hidden;
+}
+.search_btn{
+    position: relative;
+    margin: 5px auto;
+    border: 1px solid gray;
+    width: 150px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(23, 97, 1);
+
+}
+.search_content div a{
+    text-decoration: none;
+    border: 1px solid gray;
+    width: 200px;
+    margin: auto;
+    color: white;
+    background-color: rgb(5, 51, 138);
+    padding: 3px 5px;
+    border-radius: 10px;
+}

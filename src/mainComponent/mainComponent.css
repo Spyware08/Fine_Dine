@@ -1,0 +1,22 @@
+.nav_logo {
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    color: orangered;
+}
+
+.main_nav {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.nav_link {
+    text-decoration: none;
+    color: wheat;
+    transition: 0.2s;
+}
+
+.active {
+    color: red;
+}

@@ -1,0 +1,58 @@
+.contact{
+    background-color: rgb(15, 14, 19);
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.contact h2{
+    margin: 20px auto;
+}
+.contact_maps{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80rem;
+    padding: 1rem;
+    
+    
+}
+.contact_maps iframe{
+    border-radius: 2rem;
+}
+.contact_form{
+    background-color: rgb(40, 39, 46);
+    display: flex;
+    margin: 1rem  auto;
+    flex-direction: column;
+    width: 41rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+   
+}
+.contact_form form{
+    gap: 0.2rem;
+    width: 35rem;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+.contact_form form input{
+    padding: 0.1rem 0.5rem;
+    outline: none;
+}
+.contact_form form textarea{
+    padding: 0.1rem 0.5rem;
+    outline: none;
+}
+.contact_btn{
+    width: 100px;
+    margin: auto;
+    transition: 0.3s;
+    border: none;
+    border-radius: 0.7rem;
+}
+.contact_btn:hover{
+    color: white;
+    background-color: green;
+}
